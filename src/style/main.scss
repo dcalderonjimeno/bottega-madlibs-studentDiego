@@ -13,6 +13,14 @@
     transition: translateY(50%);
 }
 
+.gray {
+    background: grey;
+}
+
+.green {
+    background: #00CB79;
+}
+
 .home {
     position: relative;
     background-color: #cfcfcf00;
@@ -140,7 +148,6 @@
 
     &__number {
        grid-column: number-s/number-e;
-       background-color: #00CB79;
        color: white;
        font-size: 20px;
        line-height: 24px;
